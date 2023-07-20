@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="featureOne"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScripts.sampleTestTwo">
+        <methods>
+          <include name="CypressSearchTest"/>
+        </methods>
+      </class> <!-- testScripts.sampleTestTwo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
